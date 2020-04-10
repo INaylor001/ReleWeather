@@ -12,4 +12,7 @@
     <string name="LoginButton">Login</string>
     <string name="UserName">Username</string>
     <string name="Password">Password</string>
+
+    //map
+    <string name="map_key" translatable="false"> AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
 </resources>
