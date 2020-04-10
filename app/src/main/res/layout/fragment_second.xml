@@ -54,12 +54,14 @@
         android:layout_marginHorizontal="30dp"
         />
     
-    <TextView
+    <Button
+        android:id="@+id/continue_guest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Continue as Guest"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
+        android:layout_marginHorizontal="60dp"
         />
 
     <Button
