@@ -21,6 +21,5 @@
         android:layout_margin="10dp"
         android:elevation="5dp"
         android:background="@drawable/bg_round"/>
-    <!-- kdsjflkajf -->
 
 </RelativeLayout>
