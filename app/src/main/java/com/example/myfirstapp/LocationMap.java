@@ -38,6 +38,8 @@ public class LocationMap extends FragmentActivity implements OnMapReadyCallback 
             @Override
             public boolean onQueryTextSubmit(String query) {
                 String location = searchView.getQuery().toString();
+
+                //Location stuff, unsure where it went wrong here.
                 List<Address> addressList = new ArrayList<Address>();
 
                 if (location != null || !location.equals("")){

@@ -29,10 +29,21 @@ public class SecondFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
+        //onclick for continue guest button
         view.findViewById(R.id.continue_guest).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
               openLocationMap();
+            }
+
+        });
+
+        //onclick listener for weather button
+
+        view.findViewById(R.id.weather_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openWeatherScreen();
             }
         });
 
@@ -47,8 +58,15 @@ public class SecondFragment extends Fragment {
         });
     }
 
+    //public methods to open certain screens
+
     public void openLocationMap(){
         Intent intent = new Intent(this.getActivity(), LocationMap.class);
+        startActivity(intent);
+    }
+
+    public void openWeatherScreen(){
+        Intent intent = new Intent(this.getActivity(), WeatherScreen.class);
         startActivity(intent);
     }
 
